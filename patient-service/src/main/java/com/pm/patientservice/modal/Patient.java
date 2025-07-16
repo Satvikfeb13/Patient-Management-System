@@ -1,4 +1,4 @@
-package com.pm.patientservice.model;
+package com.pm.patientservice.modal;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -73,11 +73,11 @@ public class Patient {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public @NotNull LocalDate getRegisteredDate() {
+    public LocalDate getRegisteredDate() {
         return registeredDate;
     }
 
-    public void setRegisteredDate(@NotNull LocalDate registeredDate) {
+    public void setRegisteredDate(LocalDate registeredDate) {
         this.registeredDate = registeredDate;
     }
 

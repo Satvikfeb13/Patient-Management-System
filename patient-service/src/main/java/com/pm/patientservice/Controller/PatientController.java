@@ -22,7 +22,7 @@ import java.util.UUID;
 @Tag(name = "Patient", description = "API for managing Patients")
 public class PatientController {
     private final PatientService patientService;
-
+//    Constructor  injection
     public PatientController(PatientService patientService) {
         this.patientService=patientService;
     }

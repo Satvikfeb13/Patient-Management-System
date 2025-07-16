@@ -9,15 +9,6 @@ public class PatientResponseDTO {
     private String dateOfBirth;
     private String registeredDate;
 
-    public String getRegisteredDate() {
-        return registeredDate;
-    }
-
-    public void setRegisteredDate(String registeredDate) {
-        registeredDate = registeredDate;
-    }
-
-
     public String getId() {
         return id;
     }
@@ -58,5 +49,11 @@ public class PatientResponseDTO {
         this.dateOfBirth = dateOfBirth;
     }
 
+    public String getRegisteredDate() {
+        return registeredDate;
+    }
 
+    public void setRegisteredDate(String registeredDate) {
+        this.registeredDate = registeredDate;
+    }
 }
