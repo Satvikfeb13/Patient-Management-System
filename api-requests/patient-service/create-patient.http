@@ -1,0 +1,14 @@
+### Create new Patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+    {
+      "name": "Vasu Patil",
+      "email": "vasu123@gmail.com",
+      "address": "Lane  no 13 nagar dhule",
+      "dateOfBirth": "2000-09-09",
+      "registeredDate": "1900-12-28"
+    }
+
+
+###

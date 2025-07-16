@@ -1,0 +1,12 @@
+### Update Patient
+PUT http://localhost:4000/patients/2949670a-a637-4e3c-8f08-56d3ef8e5045
+Content-Type: application/json
+
+{
+  "name": "Vasu Deore ",
+  "email": "Vasu1324@gmail.com",
+  "address": "Nagar nagar dhule",
+  "dateOfBirth": "2004-09-09",
+  "registeredDate": "2005-12-15"
+}
+###
